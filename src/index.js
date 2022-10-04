@@ -5,9 +5,11 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Services from './pages/Services'
+import './index.css'
 
 export default function App () {
   return (
+    <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Layout />}>
@@ -18,6 +20,7 @@ export default function App () {
         </Route>
       </Routes>
     </BrowserRouter>
+  </div>
   )
 }
 
