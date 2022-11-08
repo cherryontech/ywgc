@@ -2,7 +2,11 @@ import React from 'react'
 
 function Home () {
   return (
-    <h1>Coming soon!</h1>
+    <div>
+      <h1 style={{ fontFamily: 'Lato' }}>Coming soon!</h1>
+
+      <h2 style={{ fontFamily: 'Inter' }}>Constructing</h2>
+    </div>
   )
 }
 
