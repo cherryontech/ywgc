@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Home() {
+function Home () {
   return (
     <div className="pt-16 md:py-8">
       <div className="pl-24">
