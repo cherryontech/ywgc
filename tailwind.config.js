@@ -5,7 +5,13 @@ module.exports = {
   "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-  extend: {},
+    extend: {
+      fontFamily: {
+        header: ['Fjalla One', 'sans-serif'],
+        body: ['Merriweather Sans', 'sans-serif'],
+        button: ['Merriweather Sans', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
  }
