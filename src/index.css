@@ -15,3 +15,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+html {
+  background-image: url('/public/lawncare-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
