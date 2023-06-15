@@ -1,0 +1,12 @@
+.services-wrapper{
+  display: block;
+}
+.services{
+  font-size: 64px;
+}
+.service-title{
+  font-size: 32px;
+}
+.service-description{
+  font-size: 24px;
+}
