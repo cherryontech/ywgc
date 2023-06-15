@@ -5,7 +5,7 @@ const BaseHeading = ({ level, text }) => {
   const HeadingTag = `h${level}`
 
   return (
-    <HeadingTag className="text-4xl font-header text-center md:text-6xl">
+    <HeadingTag className="text-4xl text-center font-header md:text-6xl">
       {text}
     </HeadingTag>
   )
