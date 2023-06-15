@@ -4,7 +4,6 @@ function Home () {
   return (
     <div className="mt-20 mx-4 md:mt-40 md:mx-64 bg-white bg-opacity-60 rounded-lg" aria-label="Business Information">
       <div className="px-8 flex flex-col justify-center items-center py-4">
-        <h1 className="text-[40px] md:text-[64px] text-center font-header font-bold">Yorkshire Woods Ground Crew</h1>
         <p className="text-[24px] font-body">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus.
         </p>
