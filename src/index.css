@@ -17,7 +17,7 @@ code {
 }
 
 
-html {
+.hero-image{
   background-image: url('/public/lawncare-bg.jpeg');
   background-repeat: no-repeat;
   background-size: cover;

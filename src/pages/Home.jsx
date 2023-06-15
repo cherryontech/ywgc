@@ -1,5 +1,4 @@
 import React from 'react'
-import Services from '../components/Services'
 
 function Home () {
   return (
@@ -17,9 +16,6 @@ function Home () {
             </p>
           </div>
         </div>
-      </div>
-      <div>
-        <Services />
       </div>
     </>
   )
