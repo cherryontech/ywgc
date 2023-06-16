@@ -25,7 +25,7 @@ export default function App () {
     </BrowserRouter>
   </div>
   </div>
-  <div className='container mx-[96px] my-[32px] bg-rose-400'>
+  <div className='container mx-[96px] my-[32px]'>
     <Services/>
   </div>
   <div className='service-map'>service-map</div>
