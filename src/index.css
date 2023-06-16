@@ -20,6 +20,7 @@ code {
 
 
 .background-image{
+  display: flex;
   background-image: url('/public/lawncare-bg.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
