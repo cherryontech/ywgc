@@ -25,11 +25,11 @@ export default function App () {
     </BrowserRouter>
   </div>
   </div>
-  <div className='container mx-[96px] my-[32px]'>
+  <div className=''>
     <Services/>
   </div>
-  <div className='service-map'>service-map</div>
-  <div className='footer'>Footer</div>
+  <div className='service-map'></div>
+  <div className='footer'></div>
   </div>
   )
 }

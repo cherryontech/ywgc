@@ -1,22 +1,21 @@
 .services-wrapper{
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding: 0px 94px;
 }
+
 .services{
-  margin-left: auto;
-  margin-right: auto;
   font-family: 'Fjalla One', sans-serif;
   font-size: 64px;
 }
 
-.service-container{
-  display: flex;
-  flex-direction: row;
-}
+
 .service-title{
   font-family: 'Fjalla One', sans-serif;
   font-size: 32px;
 }
+
 .service-description{
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 24px;
