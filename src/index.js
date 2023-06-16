@@ -11,7 +11,7 @@ import Services from './components/Services'
 export default function App () {
   return (
     <div className='wrapper'>
-    <div className='hero-image'>
+    <div className='background-image'>
     <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
     <BrowserRouter>
       <Routes>
@@ -25,7 +25,7 @@ export default function App () {
     </BrowserRouter>
   </div>
   </div>
-  <div className='container mx-auto bg-rose-400'>
+  <div className='container mx-[96px] my-[32px] bg-rose-400'>
     <Services/>
   </div>
   <div className='service-map'>service-map</div>
