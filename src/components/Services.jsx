@@ -3,17 +3,17 @@ import { serviceData } from '../servicedata'
 
 function Services () {
   return (
-    <div className="flex flex-col w-full px-0 py-[94px] md:px-8 md:py-6">
-      <h1 className="text-fjalla text-6xl mx-auto mb-6">Services</h1>
+    <div className="flex flex-col w-full px-0 py-[94px] md:px-8 md:py-6 bg-white">
+      <h2 className="mx-auto mb-6 text-6xl text-fjalla">Services</h2>
       <ul>
         {serviceData.map((service) => (
-          <li className="flex flex-col md:flex-row mb-8 items-center" key={service.id}>
+          <li className="flex flex-col items-center mb-8 md:flex-row" key={service.id}>
             <div className="mx-auto md:mr-8">
               <img className="max-w-none" src={service.icon} alt={service.title} />
             </div>
             <div>
-              <h3 className="text-fjalla text-center md:text-left text-4xl mb-2">{service.title}</h3>
-              <p className="text-merriweather text-xl">{service.description}</p>
+              <h3 className="mb-2 text-4xl text-center text-fjalla md:text-left">{service.title}</h3>
+              <p className="text-xl text-merriweather">{service.description}</p>
             </div>
           </li>
         ))}

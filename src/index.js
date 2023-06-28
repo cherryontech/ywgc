@@ -8,24 +8,20 @@ import Services from './components/Services'
 export default function App () {
   return (
     <div className='wrapper'>
-    <div className="bg-[url('/public/lawncare-bg.jpeg')] bg-no-repeat bg-cover opacity-70">
-    <div className="container p-8 mx-auto bg-gray-200 border shadow rounded-xl">
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Layout />}>
-          <Route index element={<Home />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </div>
-  </div>
-  <div className=''>
-    <Services/>
-  </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Layout />}>
+            <Route index element={<Home />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+
+    <Services />
+
   <div className='service-map'></div>
-  <div className='flex flex-col p-16 bg-green-700'>
-    <h1 className='text-center text-white'>Icons from &quot;Lawn Care&quot; collection, created by Berkah Icon, from <a className='underline' href='https://thenounproject.com/browse/collection-icon/lawn-care-163681/?p=1'>Noun Project</a> CC BY 3.0</h1>
-  </div>
+    <div className='flex flex-col p-16 bg-green-700'>
+      <h1 className='text-center text-white'>Icons from &quot;Lawn Care&quot; collection, created by Berkah Icon, from <a className='underline' href='https://thenounproject.com/browse/collection-icon/lawn-care-163681/?p=1'>Noun Project</a> CC BY 3.0</h1>
+    </div>
   </div>
   )
 }
