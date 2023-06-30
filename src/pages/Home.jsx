@@ -1,5 +1,4 @@
 import React from 'react'
-import BaseHeading from '../components/BaseHeading'
 
 function Home () {
   return (
