@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         header: ['Fjalla One', 'sans-serif'],
-        'sans': ['Merriweather Sans', ...defaultTheme.fontFamily.sans]
+        sans: ['Merriweather Sans', ...defaultTheme.fontFamily.sans]
       }
     },
     plugins: [],
