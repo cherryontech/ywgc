@@ -1,7 +1,7 @@
 import React from 'react'
 import BaseHeading from '../components/BaseHeading'
 
-function Home() {
+function Home () {
   return (
     <div className="p-6 bg-white bg-opacity-60 bg-[url('/public/lawncare-bg.jpeg')] bg-no-repeat bg-cover">
       <div className="flex flex-col items-center justify-center p-6 mt-24 bg-white rounded-2xl">
