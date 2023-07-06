@@ -4,6 +4,7 @@ import Layout from './pages/Layout'
 import Home from './pages/Home'
 import './index.css'
 import Services from './components/Services'
+import BioMose from './components/BioMose'
 
 export default function App () {
   return (
@@ -16,7 +17,8 @@ export default function App () {
         </Routes>
       </BrowserRouter>
 
-    <Services />
+      <Services />
+      <BioMose />
 
   <div className='service-map'></div>
     <div className='flex flex-col p-16 bg-green-700'>
