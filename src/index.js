@@ -16,11 +16,10 @@ export default function App () {
           </Route>
         </Routes>
       </BrowserRouter>
-
-    <Services />
+   <Services />
     <Footer />
-  <div className='service-map'></div>
   </div>
+
   )
 }
 
