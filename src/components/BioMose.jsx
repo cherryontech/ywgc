@@ -11,7 +11,7 @@ const BioMose = () => {
           Owner, Mose Primus is a long-time resident of Eastside Detroit and is the president of the local neighborhood association. Through his volunteer and non-profit work, Mose works tirelessly to beautify his neighborhood, mitigate blight, and create a safe, welcoming space for all residents.
         </p>
       </div>
-      <img src={mose} alt="its_me" className="w-full h-96 object-cover" />
+      <img src={mose} alt="Mose Primus" className="w-full h-96 object-cover" />
     </div>
   )
 }
