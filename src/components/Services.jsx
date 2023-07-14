@@ -8,11 +8,11 @@ function Services () {
      <h2 className="mx-auto text-4xl md:text-6xl text-fjalla">Services</h2>
      <hr className='w-[180px] md:w-[720px] h-px mx-auto mt-2 mb-10 md:mb-2 bg-gray-100 border-0 rounded dark:bg-gray-700'></hr>
     <ul className=''>
-      <li className=''>
       {serviceData.map((data) => (
-        <ServiceItem key={data.id} data={data} />
+        <li className='' key={data.id}>
+        <ServiceItem data={data} />
+        </li>
       ))}
-      </li>
       </ul>
    </div>
   )
