@@ -6,7 +6,6 @@ import './index.css'
 import Services from './components/Services'
 import ServiceArea from './components/ServiceArea'
 
-
 export default function App () {
   return (
     <div className='wrapper'>
@@ -33,7 +32,6 @@ export default function App () {
         </h1>
       </div>
     </div>
-  </div>
   )
 }
 
