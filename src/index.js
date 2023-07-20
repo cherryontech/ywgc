@@ -18,7 +18,7 @@ export default function App () {
       </BrowserRouter>
       <Services />
       <BioMose />
-    </div>
+  </div>
   )
 }
 
