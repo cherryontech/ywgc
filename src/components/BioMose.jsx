@@ -13,9 +13,9 @@ const BioMose = () => {
         </p>
       </div>
       {/* Show 'mose' image on desktop */}
-      <img src={mose} alt="Its-me" className="w-full object-cover md:block hidden" />
+      <img src={mose} alt="Mose Primus, the friendly owner of Yorkshire Woods Ground Crew, operating a lawn mower with a warm smile. He's driving the mower amidst lush flower bushes and vibrant, healthy green grass." className="w-full object-cover md:block hidden" />
       {/* Show 'map' image on mobile */}
-      <img src={map} alt="Its-me" className="w-full object-cover md:hidden" />
+      <img src={map} alt="Mose Primus, the friendly owner of Yorkshire Woods Ground Crew, operating a lawn mower with a warm smile. He's driving the mower amidst lush flower bushes and vibrant, healthy green grass." className="w-full object-cover md:hidden" />
     </div>
   )
 }
