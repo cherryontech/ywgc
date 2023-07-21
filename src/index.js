@@ -16,10 +16,11 @@ export default function App () {
           </Route>
         </Routes>
       </BrowserRouter>
-   <Services />
-    <Footer />
-  </div>
-
+      <div id='services-section'>
+        <Services />
+      </div>
+      <Footer />
+    </div>
   )
 }
 
