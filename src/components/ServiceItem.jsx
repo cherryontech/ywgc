@@ -8,7 +8,7 @@ const ServiceItem = (props) => {
       <img className='max-w-none' src={props.data.icon} alt={props.data.title} />
     </div>
     <div className='mb-4'>
-      <h3 className='text-xl text-fjalla text-center md:text-left md:text-4xl'>{props.data.title}</h3>
+      <h3 className='text-xl font-header text-center md:text-left md:text-4xl'>{props.data.title}</h3>
       <p className='text-merriweather text-base text-xs py-2.5 px-8 md:text-2xl md:px-0'>{props.data.description}</p>
     </div>
     </div>
