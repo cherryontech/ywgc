@@ -4,6 +4,7 @@ import Layout from './pages/Layout'
 import Home from './pages/Home'
 import './index.css'
 import Services from './components/Services'
+import Lifecycle from './components/Lifecycle'
 import BioMose from './components/BioMose'
 import Footer from './components/Footer'
 
@@ -18,6 +19,7 @@ export default function App () {
         </Routes>
       </BrowserRouter>
       <Services />
+      <Lifecycle />
       <BioMose />
       <Footer />
   </div>
