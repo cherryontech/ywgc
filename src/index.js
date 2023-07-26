@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import './index.css'
 import Services from './components/Services'
 import BioMose from './components/BioMose'
+import Footer from './components/Footer'
 
 export default function App () {
   return (
@@ -18,6 +19,7 @@ export default function App () {
       </BrowserRouter>
       <Services />
       <BioMose />
+      <Footer />
   </div>
   )
 }
