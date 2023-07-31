@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import './index.css'
 import Services from './components/Services'
 import BioMose from './components/BioMose'
+import ServiceArea from './components/ServiceArea'
 import Footer from './components/Footer'
 
 export default function App () {
@@ -19,8 +20,9 @@ export default function App () {
       </BrowserRouter>
       <Services />
       <BioMose />
+      <ServiceArea />
       <Footer />
-  </div>
+    </div>
   )
 }
 
