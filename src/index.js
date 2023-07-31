@@ -4,6 +4,7 @@ import Layout from './pages/Layout'
 import Home from './pages/Home'
 import './index.css'
 import Services from './components/Services'
+import ServiceArea from './components/ServiceArea'
 import Footer from './components/Footer'
 
 export default function App () {
@@ -16,10 +17,10 @@ export default function App () {
           </Route>
         </Routes>
       </BrowserRouter>
-   <Services />
-    <Footer />
-  </div>
-
+      <Services />
+      <ServiceArea />
+       <Footer />
+    </div>
   )
 }
 
