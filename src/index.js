@@ -18,7 +18,9 @@ export default function App () {
           </Route>
         </Routes>
       </BrowserRouter>
-      <Services />
+      <div id='services-section'>
+        <Services />
+      </div>
       <BioMose />
       <ServiceArea />
       <Footer />
