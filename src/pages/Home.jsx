@@ -34,14 +34,14 @@ function Home () {
                 <h3 className=''>Jobs Of All Sizes</h3>
                 <h3 className=''>Quality Guaranteed</h3>
               </div>
-              <div className='flex items-center text-center justify-center bg-green-700 py-3 px-10 rounded-lg'>
-                <Link
+              <Link
                   to='#services-section'
                   className='text-2xl text-white font-bold'
                 >
+              <div className='flex items-center text-center justify-center bg-green-700 py-3 px-10 rounded-lg'>
                   Our Services
-                </Link>
               </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -75,14 +75,14 @@ function Home () {
               <h3 className='px-2'>Jobs Of All Sizes</h3>
               <h3 className='px-2'>Quality Guaranteed</h3>
             </div>
-            <div className='flex items-center text-center justify-center bg-green-700 p-2.5 gap-2.5 rounded-lg w-3/5 lg:w-[463px] lg:h-[85px]'>
               <Link
                 to='#services-section'
                 className='text-2xl lg:text-3xl text-white font-bold'
               >
+            <div className='flex items-center text-center justify-center bg-green-700 p-2.5 gap-2.5 rounded-lg w-3/5 lg:w-[463px] lg:h-[85px]'>
                 Our Services
-              </Link>
             </div>
+              </Link>
           </div>
         </div>
       </div>
