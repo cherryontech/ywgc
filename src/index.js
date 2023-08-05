@@ -21,8 +21,8 @@ export default function App () {
       <div id='services-section'>
         <Services />
       </div>
-      <BioMose />
       <ServiceArea />
+      <BioMose />
       <Footer />
     </div>
   )
