@@ -17,7 +17,7 @@ const Lifecycle = () => {
             </div>
             <h4 className="font-fjalla text-2xl md:text-3xl text-gray-700 md:ml-0">Plan</h4>
           </div>
-          <div className="hidden md:block absolute top-6 md:left-[22rem] w-full h-1 bg-green-800 "></div>
+          <div className="hidden md:block absolute top-4 md:left-[22rem] w-full h-1 bg-green-800 "></div>
           <div className="md:hidden absolute left-4 w-1 h-full bg-green-800"></div>
           <div>
             <p className='mb-10 px-12 md:mx-20 md:my-3'>Get in touch with us! Together we’ll figure out what kind of work you need done and the best date for it to happen.</p>
@@ -33,7 +33,7 @@ const Lifecycle = () => {
             </div>
             <h4 className="font-fjalla font-normal text-2xl md:text-3xl text-gray-700">Relax</h4>
           </div>
-          <div className="hidden md:block absolute md:mx-2 w-full md:ml-[17rem] top-6 h-1 bg-green-800"></div>
+          <div className="hidden md:block absolute md:mx-2 w-full md:ml-[15rem] top-4 h-1 bg-green-800"></div>
           <div className="md:hidden absolute left-4 w-1 h-full bg-green-800"></div>
           <div>
             <p className='md:ml-0 mb-10 px-12 md:mx-20 md:my-3'>We’ll do the work agreed, and provide before and after pictures of the work we do.</p>
