@@ -6,6 +6,7 @@ import './index.css'
 import Services from './components/Services'
 import Lifecycle from './components/Lifecycle'
 import BioMose from './components/BioMose'
+import ServiceArea from './components/ServiceArea'
 import Footer from './components/Footer'
 
 export default function App () {
@@ -18,11 +19,14 @@ export default function App () {
           </Route>
         </Routes>
       </BrowserRouter>
-      <Services />
-      <Lifecycle />
-      <BioMose />
-      <Footer />
-  </div>
+      <div id='services-section'>
+        <Services />
+        <Lifecycle />
+        <ServiceArea />
+        <BioMose />
+        <Footer />
+      </div>
+    </div>
   )
 }
 
