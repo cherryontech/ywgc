@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        header: ['Fjalla One', 'sans-serif'],
+        number: ['BioRhyme', 'sans-serif'],
         sans: ['Merriweather Sans', ...defaultTheme.fontFamily.sans]
       }
     },

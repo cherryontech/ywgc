@@ -8,10 +8,10 @@ function Home () {
       {/* Mobile Version */}
       <div className='lg:hidden'>
         <div className='flex bg-white py-2.5'>
-          <p className='font-normal font-header text-xl ml-auto mx-2'>
+          <p className='font-semibold text-lg md:text-xl ml-auto mx-2'>
             Tap to call!
           </p>
-          <p className='font-normal font-header text-xl text-green-700 mx-2'>
+          <p className='font-bold text-lg md:text-xl text-green-700 mx-2'>
             123.456.7890
           </p>
         </div>
@@ -23,20 +23,20 @@ function Home () {
             </div>
             <div>
               <div className='w-[358px] h-[80px] px-8'>
-                <h2 className='font-normal italic text-center text-3xl text-zinc-500'>
+                <h2 className='font-bold text-center text-sm uppercase text-zinc-600 leading-5'>
                   Detroit&apos;s Finest Lawn Care
                 </h2>
               </div>
             </div>
             <div className='gap-16'>
-              <div className='flex flex-col font-normal text-xl text-center mb-14 gap-2'>
+              <div className='flex flex-col italic text-base leading-normal font-light text-center mb-14 gap-2'>
                 <h3 className=''>Personalized Service</h3>
                 <h3 className=''>Jobs Of All Sizes</h3>
                 <h3 className=''>Quality Guaranteed</h3>
               </div>
               <Link
                   to='#services-section'
-                  className='text-2xl text-white font-bold'
+                className='text-base md:text-lg text-white font-semibold'
                 >
               <div className='flex items-center text-center justify-center bg-green-700 py-3 px-10 rounded-lg'>
                   Our Services
@@ -56,28 +56,28 @@ function Home () {
         />
         <div className='w-full'>
           <div className='flex flex-row absolute right-0 top-0 pt-2'>
-            <p className='font-normal font-header text-4xl mr-4'>
+              <p className='font-semibold text-lg md:text-xl mr-4'>
               Call us today!
             </p>
-            <p className='font-normal font-header text-4xl text-green-700 mr-4'>
+              <p className='font-semibold text-lg md:text-xl text-green-700 mr-4'>
               123.456.7890
             </p>
           </div>
           <div className='flex flex-col mx-auto mt-18 py-36 text-center items-center'>
             <div className='mx-2'>
               <BaseHeading level={1} text='Yorkshire Woods Ground Crew' />
-              <p className='font-normal my-6 italic text-4xl text-zinc-500'>
+                <p className='font-bold text-center text-sm uppercase text-zinc-600 leading-5'>
                 Detroit&apos;s Finest Lawn Care
               </p>
             </div>
-            <div className='flex flex-row font-normal text-lg md:text-xl lg:text-2xl mb-14 divide-x-2 divide-zinc-500'>
+              <div className='flex flex-row italic text-base leading-normal font-light lg:text-2xl mb-14 divide-x-2 divide-zinc-500'>
               <h3 className='px-2'>Personalized Service</h3>
               <h3 className='px-2'>Jobs Of All Sizes</h3>
               <h3 className='px-2'>Quality Guaranteed</h3>
             </div>
               <Link
                 to='#services-section'
-                className='text-2xl lg:text-3xl text-white font-bold'
+                className='text-base md:text-lg text-white font-semibold'
               >
             <div className='flex items-center text-center justify-center bg-green-700 p-2.5 gap-2.5 rounded-lg w-3/5 lg:w-[463px] lg:h-[85px]'>
                 Our Services
