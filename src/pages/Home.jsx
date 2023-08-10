@@ -7,85 +7,83 @@ function Home () {
     <div>
       {/* Mobile Version */}
       <div className='lg:hidden'>
-        <div className='flex bg-white py-2.5'>
-          <p className='font-normal font-header text-xl ml-auto mx-2'>
+        <div className='flex justify-center text-center gap-2 bg-white py-8'>
+          <p className='font-normal font-header text-xl'>
             Tap to call!
           </p>
-          <p className='font-normal font-header text-xl text-green-700 mx-2'>
+          <p className='font-normal font-header text-xl text-green-700'>
             123.456.7890
           </p>
         </div>
-        <div className="p-6 bg-white bg-[url('/public/images/hero.png')] bg-no-repeat bg-cover">
-          <div className='flex flex-col items-center justify-center p-6 bg-white bg-opacity-80 rounded-2xl'>
-            <div className='py-5 px-16 gap-2.5'>
-              <BaseHeading level={1} text='Yorkshire Woods Ground Crew' />
-              <hr className='w-[211px] h-px mx-auto mt-4 bg-black border-0 rounded'></hr>
-            </div>
+        <div className="p-6 bg-white bg-[url('/public/images/heromobile.png')] bg-no-repeat bg-cover">
+          <div className='flex flex-col items-center justify-center p-6 bg-white bg-opacity-80 my-10'>
             <div>
-              <div className='w-[358px] h-[80px] px-8'>
-                <h2 className='font-normal italic text-center text-3xl text-zinc-500'>
-                  Detroit&apos;s Finest Lawn Care
-                </h2>
+              <div className='px-16 gap-2.5 pt-10'>
+                <BaseHeading level={1} text='Yorkshire Woods Ground Crew' />
+              </div>
+              <div>
+                <div className='px-8'>
+                  <h2 className='font-normal italic text-center text-3xl text-zinc-500'>
+                    Detroit&apos;s Finest Lawn Care
+                  </h2>
+                </div>
               </div>
             </div>
-            <div className='gap-16'>
-              <div className='flex flex-col font-normal text-xl text-center mb-14 gap-2'>
+            <div className='flex flex-col font-normal text-xl text-center mb-14 gap-2 py-10.5'>
                 <h3 className=''>Personalized Service</h3>
                 <h3 className=''>Jobs Of All Sizes</h3>
                 <h3 className=''>Quality Guaranteed</h3>
               </div>
               <Link
                   to='#services-section'
-                  className='text-2xl text-white font-bold'
+              className=' text-white font-bold pb-10'
                 >
-              <div className='flex items-center text-center justify-center bg-green-700 py-3 px-10 rounded-lg'>
+              <div className='flex h-10 px-20 items-center text-center justify-center bg-green-700 self-stretch rounded-full transition-all hover:text-green-700 hover:bg-transparent hover:border-solid hover:border-4 hover:border-green-700'>
                   Our Services
               </div>
-              </Link>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
       {/* web version */}
+
       <div className='hidden lg:flex flex-row'>
-      <div className='flex flex-row'>
         <img
-          className='w-1/3'
+          className='flex-2 flex-shrink-1 flex-grow-0 w-1/2'
           src='/images/hero.png'
           alt='Freshly mowed vibrant green grass showcasing immaculate grooming. In the foreground, beautiful flower bushes bloom with a variety of white, red, and pink flowers.'
         />
-        <div className='w-full'>
-          <div className='flex flex-row absolute right-0 top-0 pt-2'>
-            <p className='font-normal font-header text-4xl mr-4'>
+        <div className='flex-2 flex-shrink-1 flex-grow-0 w-1/2 md:px-24'>
+          <div className='flex flex-row justify-center md:py-4'>
+            <p className='font-normal font-header text-4xl'>
               Call us today!
             </p>
             <p className='font-normal font-header text-4xl text-green-700 mr-4'>
               123.456.7890
             </p>
           </div>
-          <div className='flex flex-col mx-auto mt-18 py-36 text-center items-center'>
+          <div className='flex flex-col mx-auto mt-18 py-36 md:my-28 justify-center text-center items-center'>
             <div className='mx-2'>
               <BaseHeading level={1} text='Yorkshire Woods Ground Crew' />
               <p className='font-normal my-6 italic text-4xl text-zinc-500'>
                 Detroit&apos;s Finest Lawn Care
               </p>
             </div>
-            <div className='flex flex-row font-normal text-lg md:text-xl lg:text-2xl mb-14 divide-x-2 divide-zinc-500'>
+            <div className='flex flex-col font-normal text-lg md:text-xl lg:text-2xl mb-14 py-9 gap-2 divide-zinc-500'>
               <h3 className='px-2'>Personalized Service</h3>
               <h3 className='px-2'>Jobs Of All Sizes</h3>
               <h3 className='px-2'>Quality Guaranteed</h3>
             </div>
               <Link
                 to='#services-section'
-                className='text-2xl lg:text-3xl text-white font-bold'
+              className='text-2xl lg:text-3xl text-white font-bold'
               >
-            <div className='flex items-center text-center justify-center bg-green-700 p-2.5 gap-2.5 rounded-lg w-3/5 lg:w-[463px] lg:h-[85px]'>
+              <div className='flex h-16 md:px-20 items-center text-center justify-center bg-green-700 self-stretch rounded-full transition-all hover:text-green-700 hover:bg-transparent hover:border-solid hover:border-4 hover:border-green-700'>
                 Our Services
             </div>
               </Link>
           </div>
         </div>
-      </div>
       </div>
     </div>
   )
