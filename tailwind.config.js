@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         number: ['BioRhyme', 'sans-serif'],
-        sans: ['Merriweather Sans', ...defaultTheme.fontFamily.sans]
+        sans: ['Montserrat Sans', ...defaultTheme.fontFamily.sans]
       }
     },
     plugins: [],
