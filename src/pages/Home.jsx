@@ -38,7 +38,7 @@ function Home () {
                   to='#services-section'
                 className='text-base md:text-lg text-white font-semibold'
                 >
-              <div className='flex items-center text-center justify-center bg-green-700 py-3 px-10 rounded-lg'>
+                <div className='flex items-center text-center justify-center md:text-xl bg-green-700 py-3 px-10 rounded-lg'>
                   Our Services
               </div>
               </Link>
