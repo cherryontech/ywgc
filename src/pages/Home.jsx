@@ -77,7 +77,7 @@ function Home () {
             </div>
               <Link
                 to='#services-section'
-                className='text-base md:text-lg text-white font-semibold'
+                className='text-lg md:text-xl text-white font-semibold'
               >
             <div className='flex items-center text-center justify-center bg-green-700 p-2.5 gap-2.5 rounded-lg w-3/5 lg:w-[463px] lg:h-[85px]'>
                 Our Services
