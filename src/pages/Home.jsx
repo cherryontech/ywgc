@@ -7,13 +7,11 @@ function Home () {
     <div>
       {/* Mobile Version */}
       <div className='lg:hidden'>
-        <div className='flex bg-white py-2.5'>
-          <p className='mx-auto my-8 text-lg font-semibold'>
+          <p className='my-8 text-lg font-semibold text-center font-header'>
             Tap to
-            <a href="mailto:info@yorkshirewoodsgroundcrew.com" className='ml-2 text-xl text-green-700 underline font-header'>email</a>
+            <a href="mailto:info@yorkshirewoodsgroundcrew.com" className='ml-2 text-green-700 underline'>email</a>
             !
           </p>
-        </div>
         <div className="p-6 bg-white bg-[url('/public/images/hero.png')] bg-no-repeat bg-cover">
           <div className='flex flex-col items-center justify-center p-6 bg-white bg-opacity-80 rounded-2xl'>
             <div className='py-5 px-16 gap-2.5'>
@@ -54,10 +52,9 @@ function Home () {
           alt='Freshly mowed vibrant green grass showcasing immaculate grooming. In the foreground, beautiful flower bushes bloom with a variety of white, red, and pink flowers.'
         />
         <div className='w-full'>
-          <div className='absolute top-0 right-0 flex flex-row pt-2'>
-            <a href="mailto:info@yorkshirewoodsgroundcrew.com" className='mr-4 text-4xl font-normal text-green-700 underline font-header'>
-              Email us today!
-            </a>
+          <div className="mx-auto my-4">
+            <p className="text-xl font-semibold text-center font-header">Email today!</p>
+            <a href="mailto:info@yorkshirewoodsgroundcrew.com" className='block text-xl font-semibold text-center text-green-700'>info@yorkshirewoodsgroundcrew.com</a>
           </div>
           <div className='flex flex-col items-center mx-auto text-center mt-18 py-36'>
             <div className='mx-2'>
