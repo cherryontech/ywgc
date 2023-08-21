@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        header: ['Fjalla One', 'sans-serif'],
-        sans: ['Merriweather Sans', ...defaultTheme.fontFamily.sans]
+        number: ['BioRhyme', 'sans-serif'],
+        sans: ['Montserrat Sans', ...defaultTheme.fontFamily.sans]
       }
     },
     plugins: [],
