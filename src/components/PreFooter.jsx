@@ -1,15 +1,16 @@
 import React from 'react'
 
 function PreFooter () {
-  return <div className='flex flex-col mr-auto justify-evenly gap-1 w-80 h-52 py-10 px-4 md:flex-row md:justify-between md:w-full md:h-44 md:py-16 md:px-24'>
-    <div className='gap-1.5'>
-      <h3 className='text-lg text-left font-bold  pr-10 md:pr-0 md:text-2xl md:font-semibold md:text-right'>Yorkshire Woods Ground Crew</h3>
-      <p className='text-xs text-left font-bold md:text-sm md:font-regular text-stone-600 md:text-left'>Detroit&apos;s Finest Lawn Care</p>
-    </div>
-    <div className='pt-5 gap-1 md:pt-0'>
-      <p className='text-sm text-left font-semibold md:block md:text-xl md:font-bold md:text-right'>Email today!</p>
-      <p className='text-sm text-left font-bold  md:text-xl text-green-700 md:text-right'>info@yorkshirewoodsgroundcrew.com</p>
-    </div>
+  return <div className='flex flex-col gap-5 mx-4 my-10 justify-evenly lg:mx-24 lg:my-16 lg:flex-row lg:gap-10'>
+    <h3 className="sr-only">Contact</h3>
+    <p className="flex flex-col gap-1">
+      <span className='text-lg font-bold lg:text-2xl'>Yorkshire Woods Ground Crew</span>
+      <span className='text-xs font-bold text-stone-600 lg:text-sm'>Detroit&apos;s Finest Lawn Care</span>
+    </p>
+    <p className='flex flex-col gap-1'>
+      <span className='text-sm font-semibold lg:text-xl lg:text-right'>Email today!</span>
+      <span className='text-sm font-bold text-green-700 break-all lg:text-xl'>info@yorkshirewoodsgroundcrew.com</span>
+    </p>
   </div>
 }
 
