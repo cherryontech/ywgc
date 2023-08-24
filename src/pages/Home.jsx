@@ -2,7 +2,7 @@ import React from 'react'
 import BaseHeading from '../components/BaseHeading'
 import { HashLink as Link } from 'react-router-hash-link'
 
-function Home() {
+function Home () {
   return (
     <div>
       {/* Mobile Version */}
