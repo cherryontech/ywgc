@@ -8,6 +8,7 @@ import Lifecycle from './components/Lifecycle'
 import BioMose from './components/BioMose'
 import ServiceArea from './components/ServiceArea'
 import Footer from './components/Footer'
+import PreFooter from './components/PreFooter'
 
 export default function App () {
   return (
@@ -24,6 +25,7 @@ export default function App () {
         <ServiceArea />
          <Lifecycle />
         <BioMose />
+        <PreFooter/>
         <Footer />
       </div>
     </div>
