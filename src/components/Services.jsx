@@ -4,10 +4,14 @@ import ServiceItem from './ServiceItem'
 
 function Services () {
   return (
-   <div className="flex flex-col w-full md:py-24 py-6">
-      <h2 className="mx-auto text-3xl md:text-4xl font-semibold">Services</h2>
-      <hr className='w-[180px] md:w-[720px] h-px mx-auto mt-2 mb-10 md:mb-2 bg-gray-100 border-0 rounded dark:bg-custom-color'></hr>
-    <ul className=''>
+    <div className="flex flex-col md:px-24 md:pt-14 md:pb-28 pb-16 pt-10 px-4 bg-custom-color">
+      <div className="flex items-center px-4">
+        <div className="flex-grow border-t-2 border-white"></div>
+        <h2 className="mx-auto relative text-3xl md:text-4xl font-semibold text-white px-4">Services
+        </h2>
+        <div className="flex-grow border-t-2 border-white"></div>
+      </div>
+      <ul className='flex flex-col md:flex-row mt-14 gap-5'>
       {serviceData.map((data) => (
         <li className='' key={data.id}>
         <ServiceItem data={data} />
