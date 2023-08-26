@@ -10,7 +10,10 @@ module.exports = {
       fontFamily: {
         number: ['BioRhyme', 'sans-serif'],
         sans: ['Montserrat Sans', ...defaultTheme.fontFamily.sans]
-      }
+      },
+      colors: {
+        'custom-color': '#367055',
+      },
     },
     plugins: [],
   }

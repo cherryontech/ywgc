@@ -22,8 +22,8 @@ export default function App () {
       </BrowserRouter>
       <div id='services-section'>
         <Services />
-        <Lifecycle />
         <ServiceArea />
+         <Lifecycle />
         <BioMose />
         <PreFooter/>
         <Footer />

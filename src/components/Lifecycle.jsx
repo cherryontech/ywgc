@@ -20,7 +20,8 @@ const Lifecycle = () => {
           <div className="absolute hidden w-full h-1 bg-green-800 md:block top-4 "></div>
           <div className="absolute w-1 h-full bg-green-800 md:hidden left-4"></div>
           <div>
-            <p className='px-12 mb-10 text-sm md:my-3 md:px-0'>Get in touch with us! Together we’ll figure out what kind of work you need done and the best date for it to happen.</p>
+            <p className='px-12 mb-10 text-sm md:my-3 md:px-0'>Get in touch with us! Together we’ll figure out what kind of work you need done and the best date for it to happen.
+            </p>
           </div>
         </li>
 
@@ -36,7 +37,7 @@ const Lifecycle = () => {
           <div className="absolute hidden w-full h-1 bg-green-800 md:block md:mx-2 top-4"></div>
           <div className="absolute w-1 h-full bg-green-800 md:hidden left-4"></div>
           <div>
-            <p className='px-12 mb-10 text-sm md:ml-0 md:mx-20 md:my-3 md:pl-0 md:pr-10'>We’ll do the work agreed, and provide before and after pictures of the work we do.</p>
+            <p className='md:ml-0 mb-10 text-sm  px-12 md:mx-20 md:my-3 md:pl-0 md:pr-10'>We’ll do the work agreed, and provide before and after pictures of the work we do.</p>
           </div>
         </li>
         <li className='relative md:flex md:flex-col'>
@@ -46,13 +47,12 @@ const Lifecycle = () => {
                 3
               </div>
             </div>
-            <h4 className="pl-12 text-xl font-semibold md:text-2xl md:pl-0 md:mt-12">Settle Up</h4>
-            </div>
+            <h4 className="text-xl font-semibold md:text-2xl pl-12 md:pl-0 md:mt-12">Settle Up</h4>
+          </div>
           <div>
-            <p className='px-12 mt-2 mb-10 text-sm md:ml-0 md:my-3 md:px-0'>We’ll send you the invoice with the agreed-upon amount.</p>
+            <p className='md:ml-0 mb-10 text-sm px-12 mt-2 md:my-3 md:px-0'>We’ll send you the invoice with the agreed-upon amount.</p>
           </div>
         </li>
-
       </ul>
     </div>
   )
