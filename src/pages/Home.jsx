@@ -8,9 +8,9 @@ function Home () {
       {/* Mobile Version */}
       <div className='lg:hidden'>
         <div className='flex justify-center text-center gap-2 bg-white py-8'>
-          <p className='text-lg font-semibold text-center font-header'>
+          <p className='text-lg font-semibold text-center'>
             Tap to
-            <a href="mailto:info@yorkshirewoodsgroundcrew.com" className='ml-2 text-custom-color underline'>email</a>
+            <a href="mailto:info@yorkshirewoodsgroundcrew.com" className='ml-2 text-brand-primary underline'>email</a>
             !
           </p>
         </div>
@@ -37,8 +37,8 @@ function Home () {
               to='#services-section'
               className=' text-white font-bold pb-10'
             >
-              <div className='flex h-10 px-20 items-center text-center justify-center bg-custom-color
-              self-stretch rounded-full transition-all hover:text-custom-color hover:bg-transparent hover:border-solid hover:border-4 hover:border-custom-color'>
+              <div className='flex h-10 px-20 items-center text-center justify-center bg-brand-primary
+              self-stretch rounded-full transition-all hover:text-brand-primary hover:bg-transparent hover:border-solid hover:border-4 hover:border-brand-primary'>
                 Our Services
               </div>
             </Link>
@@ -55,7 +55,7 @@ function Home () {
         <div className='flex-2 flex-shrink-1 flex-grow-0 w-1/2 md:px-24'>
           <div className="mx-auto my-4">
             <p className="text-xl font-semibold text-center font-header">Email today!</p>
-            <a href="mailto:info@yorkshirewoodsgroundcrew.com" className='block text-xl font-bold text-center text-custom-color underline'>info@yorkshirewoodsgroundcrew.com</a>
+            <a href="mailto:info@yorkshirewoodsgroundcrew.com" className='block text-xl font-bold text-center text-brand-primary underline'>info@yorkshirewoodsgroundcrew.com</a>
           </div>
           <div className='flex flex-col mx-auto mt-18 py-36 md:my-28 justify-center text-center items-center'>
             <div className='mx-2'>
@@ -74,7 +74,7 @@ function Home () {
               to='#services-section'
               className='text-2xl lg:text-3xl text-white font-bold'
             >
-              <div className='flex h-16 md:px-20 items-center text-center justify-center bg-custom-color self-stretch rounded-full transition-all hover:text-custom-color hover:bg-transparent hover:border-solid hover:border-4 hover:border-custom-color'>
+              <div className='flex h-16 md:px-20 items-center text-center justify-center bg-brand-primary self-stretch rounded-full transition-all hover:text-brand-primary hover:bg-transparent hover:border-solid hover:border-4 hover:border-brand-primary'>
                 Our Services
               </div>
             </Link>

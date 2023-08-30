@@ -12,7 +12,7 @@ module.exports = {
         sans: ['Montserrat Sans', ...defaultTheme.fontFamily.sans]
       },
       colors: {
-        'custom-color': '#367055',
+        'brand-primary': '#367055',
       },
     },
     plugins: [],

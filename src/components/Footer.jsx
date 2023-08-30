@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="bg-custom-color text-white font-light md:py-16 py-10 text-sm px-4 md:px-24">
+    <div className="bg-brand-primary text-white font-light md:py-16 py-10 text-sm px-4 md:px-24">
       <p>Copyright © 2023 Yorkshire Woods Ground Crew. All rights reserved.</p>
       <div className='py-4'>
         <p>Design: <a className='underline' href="https://www.linkedin.com/in/amanda-karczewski/">Amanda Karczewski</a></p>
