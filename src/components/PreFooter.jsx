@@ -9,7 +9,7 @@ function PreFooter () {
     </p>
     <p className='flex flex-col gap-1'>
       <span className='text-sm font-semibold lg:text-xl lg:text-right'>Email today!</span>
-      <span className='text-sm font-bold text-custom-color break-all lg:text-xl'>info@yorkshirewoodsgroundcrew.com</span>
+      <span className='text-sm font-bold text-brand-primary break-all lg:text-xl'>info@yorkshirewoodsgroundcrew.com</span>
     </p>
   </div>
 }

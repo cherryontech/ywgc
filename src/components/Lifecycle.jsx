@@ -4,7 +4,7 @@ import LifecycleItem from './LifecycleItem'
 
 const Lifecycle = () => {
   return (
-    <div className="flex flex-col md:px-24 md:pt-14 md:pb-28 pb-16 pt-10 px-4 bg-custom-color">
+    <div className="flex flex-col md:px-24 md:pt-14 md:pb-28 pb-16 pt-10 px-4 bg-brand-primary">
       <div className="flex items-center px-4">
         <div className="flex-grow border-t-2 border-white"></div>
         <h2 className="mx-auto relative text-3xl md:text-4xl font-semibold text-white px-4">How it works

@@ -4,7 +4,7 @@ const ServiceArea = () => {
   return (
     <div className='flex flex-col md:flex-row'>
       <div className='pt-14 md:flex-2 md:flex-shrink-1 md:flex-grow-0 md:w-1/2 justify-center items-center md:px-24 md:pt-16 md:pb-32'>
-        <h2 className='text-center mb-3 text-3xl md:text-4xl font-header font-semibold'>Where We Serve</h2>
+        <h2 className='text-center mb-3 text-3xl md:text-4xl font-semibold'>Where We Serve</h2>
         <img src='../images/dog.png' className='w-[100%] h-[200px] object-contain pt-16 mb-5 md:pt-10' />
         <div className='text-sm md:mt-10 flex flex-col md:justify-between'>
           <p className='mb-10 md:my-10 px-6 md:px-0 font-normal'>We are proudly located in Detroit, Michigan. We service the Detroit, Highland Park, Hamtramck, and metro Detroit area.
@@ -15,7 +15,7 @@ const ServiceArea = () => {
           <p className='pt-10 md:pt-0 text-sm  font-normal text-center'>Unsure if we service your area?</p>
           <h2 className='md:block hidden font-semibold'>Get in touch!</h2>
           <h2 className='md:hidden text-xl font-semibold'>Reach out today!</h2>
-          <p className='text-custom-color text-sm md:text-xl font-bold'>info@yorkshirewoodsgroundcrew.com
+          <p className='text-brand-primary text-sm md:text-xl font-bold'>info@yorkshirewoodsgroundcrew.com
           </p>
         </div>
       </div>
